@@ -198,7 +198,8 @@
     </header>
     <main class="max-w-screen-xl mx-auto lato">
         <!-- Deal of the day section  -->
-        <section class="md:mt-24 px-4 md:px-16 lg:px-28 py-4">
+        <section class="md:mt-28 md:py-20 px-4 md:px-16 lg:px-28 py-4">
+            <!-- headings -->
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex-1">
                     <h2 class="text-4xl font-bold">Deal Of The Day</h2>
@@ -236,6 +237,209 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <!-- deal of the day section's cards -->
+            <div class="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <!-- card 1 -->
+                <div class="card bg-base-100 rounded-md border border-gray-300">
+                    <figure class="px-5 pt-5">
+                        <img src="./images/fruit6.png" alt="Apple" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title border-b border-gray-300 pb-4 px-2">12.90$ - 18.85$</h2>
+                        <!-- <hr class="border border-b-gray-200 w-1/2 mx-auto"> -->
+                        <p class="text-sm text-[#121212] mt-3">Apples</p>
+                        <div class="rating pt-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]"  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked/>
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn bg-transparent hover:bg-transparent border-none text-[#F85559]" onclick="my_modal_1.showModal()">Details</button>
+                            <!-- Open the modal using ID.showModal() method -->
+                            <dialog id="my_modal_1" class="modal">
+                                <form method="dialog" class="modal-box">
+                                    <div>
+                                        <figure class="px-5 pt-1">
+                                            <img src="./images/fruit6.png" alt="Apple" class="rounded-xl" />
+                                        </figure>
+                                        <div class="card-body items-center text-center">
+                                            <h2 class="card-title px-2">Apples</h2>
+                                            <!-- <hr class="border border-b-gray-200 w-1/2 mx-auto"> -->
+                                            <p class="text-sm text-[#121212] mt-1">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                            <div class="rating pt-1">
+                                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]"  />
+                                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked/>
+                                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                                            </div>
+                                    </div>
+                                    <div class="modal-action inline mr-3">
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn bg-transparent border border-[#F85559] text-[#F85559]">Close</button>
+                                    </div>
+                                    <div class="inline">
+                                        <button class="btn bg-[#F85559] text-white hover:text-black">Bye Now</button>
+                                    </div>
+                                </form>
+                            </dialog>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card bg-base-100 rounded-md border border-gray-300">
+                    <figure class="px-5 pt-5">
+                        <img src="./images/fruit7.png" alt="Orange" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title border-b border-gray-300 pb-4 px-2">12.90$ - 18.85$</h2>
+                        <!-- <hr class="border border-b-gray-200 w-1/2 mx-auto"> -->
+                        <p class="text-sm text-[#121212] mt-3">Orange</p>
+                        <div class="rating pt-3">
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" checked />
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn bg-transparent hover:bg-transparent border-none text-[#F85559]" onclick="my_modal_2.showModal()">Details</button>
+                            <!-- Open the modal using ID.showModal() method -->
+                            <dialog id="my_modal_2" class="modal">
+                                <form method="dialog" class="modal-box">
+                                    <div>
+                                        <figure class="px-5 pt-1">
+                                            <img src="./images/fruit7.png" alt="Orange" class="rounded-xl" />
+                                        </figure>
+                                        <div class="card-body items-center text-center">
+                                            <h2 class="card-title px-2">Orange</h2>
+                                            <!-- <hr class="border border-b-gray-200 w-1/2 mx-auto"> -->
+                                            <p class="text-sm text-[#121212] mt-1">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                            <div class="rating pt-1">
+                                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+                                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" checked />
+                                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+                                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+                                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+                                            </div>
+                                    </div>
+                                    <div class="modal-action inline mr-3">
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn bg-transparent border border-[#F85559] text-[#F85559]">Close</button>
+                                    </div>
+                                    <div class="inline">
+                                        <button class="btn bg-[#F85559] text-white hover:text-black">Bye Now</button>
+                                    </div>
+                                </form>
+                            </dialog>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-base-100 rounded-md border border-gray-300">
+                    <figure class="px-5 pt-5">
+                        <img src="./images/fruit8.png" alt="Red Dragon" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title border-b border-gray-300 pb-4 px-2">12.90$ - 18.85$</h2>
+                        <!-- <hr class="border border-b-gray-200 w-1/2 mx-auto"> -->
+                        <p class="text-sm text-[#121212] mt-3">Red Dragon</p>
+                        <div class="rating pt-3">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]"  />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" checked/>
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn bg-transparent hover:bg-transparent border-none text-[#F85559]" onclick="my_modal_3.showModal()">Details</button>
+                            <!-- Open the modal using ID.showModal() method -->
+                            <dialog id="my_modal_3" class="modal">
+                                <form method="dialog" class="modal-box">
+                                    <div>
+                                        <figure class="px-5 pt-1">
+                                            <img src="./images/fruit8.png" alt="red Dragon" class="rounded-xl" />
+                                        </figure>
+                                        <div class="card-body items-center text-center">
+                                            <h2 class="card-title px-2">Red Dragon</h2>
+                                            <!-- <hr class="border border-b-gray-200 w-1/2 mx-auto"> -->
+                                            <p class="text-sm text-[#121212] mt-1">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                            <div class="rating pt-1">
+                                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+                                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]"  />
+                                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" checked/>
+                                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+                                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+                                            </div>
+                                    </div>
+                                    <div class="modal-action inline mr-3">
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn bg-transparent border border-[#F85559] text-[#F85559]">Close</button>
+                                    </div>
+                                    <div class="inline">
+                                        <button class="btn bg-[#F85559] text-white hover:text-black">Bye Now</button>
+                                    </div>
+                                </form>
+                            </dialog>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card bg-base-100 rounded-md border border-gray-300">
+                    <figure class="px-5 pt-5">
+                        <img src="./images/fruit9.png" alt="Banana" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title border-b border-gray-300 pb-4 px-2">12.90$ - 18.85$</h2>
+                        <!-- <hr class="border border-b-gray-200 w-1/2 mx-auto"> -->
+                        <p class="text-sm text-[#121212] mt-3">Banana</p>
+                        <div class="rating pt-3">
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#F85559]"  />
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#F85559]" checked/>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn bg-transparent hover:bg-transparent border-none text-[#F85559]" onclick="my_modal_4.showModal()">Details</button>
+                            <!-- Open the modal using ID.showModal() method -->
+                            <dialog id="my_modal_4" class="modal">
+                                <form method="dialog" class="modal-box">
+                                    <div>
+                                        <figure class="px-5 pt-1">
+                                            <img src="./images/fruit9.png" alt="Banana" class="rounded-xl" />
+                                        </figure>
+                                        <div class="card-body items-center text-center">
+                                            <h2 class="card-title px-2">Banana</h2>
+                                            <!-- <hr class="border border-b-gray-200 w-1/2 mx-auto"> -->
+                                            <p class="text-sm text-[#121212] mt-1">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                            <div class="rating pt-1">
+                                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#F85559]" />
+                                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#F85559]"  />
+                                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#F85559]" />
+                                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#F85559]" />
+                                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-[#F85559]" checked/>
+                                            </div>
+                                    </div>
+                                    <div class="modal-action inline mr-3">
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn bg-transparent border border-[#F85559] text-[#F85559]">Close</button>
+                                    </div>
+                                    <div class="inline">
+                                        <button class="btn bg-[#F85559] text-white hover:text-black">Bye Now</button>
+                                    </div>
+                                </form>
+                            </dialog>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <button class="btn bg-[#F85559] border-none text-white hover:text-black">Show
+                    All</button>
             </div>
         </section>
     </main>
